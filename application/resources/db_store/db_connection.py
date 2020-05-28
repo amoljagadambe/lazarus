@@ -26,6 +26,7 @@ class MySQLDBConnection:
         return self.ds.cursor()
 
     def findBy(self, sql):
+        # TODO : Change weakly refernce variable
         self.cur = self.get_cursor()
         self.cur.execute(sql)
         return self.cur.fetchall()
