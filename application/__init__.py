@@ -10,6 +10,7 @@ parameter helps to close all thread
 after closing the application
 """
 sched_data = BackgroundScheduler(daemon=True)
+
 # in your case you could change seconds to hours
 sched_data.add_job(sensor, 'interval', seconds=5)
 sched_data.start()
