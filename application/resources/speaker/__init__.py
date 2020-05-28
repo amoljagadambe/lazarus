@@ -1,0 +1,1 @@
+from application.resources.speaker.speaker_controller import SpeakersController
