@@ -10,7 +10,7 @@ python_speech_features==0.6
 
 # To reslove the error in latest version regarding cached_property import we have to
 #downgrade the version of werkzeug
-Werkzeug==0.16.1
+Werkzeug==2.2.3
 
 # need this specific packages as new version does not include rmse method
 librosa==0.6.0
